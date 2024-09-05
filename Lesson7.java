@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 
 
-public class Main {
+public class Lesson7{
 
     //Методы закомментил для удобства, так как есть ввод значений с клавиатуры
 
@@ -32,10 +32,10 @@ public class Main {
     public static void checkSumSign() {
         int a = -10,b = 27;
         int res = a + b;
-            if(res >= 0)
-                System.out.println("Сумма положительная");
-            else
-                System.out.println("Сумма отрицательная");
+        if(res >= 0)
+            System.out.println("Сумма положительная");
+        else
+            System.out.println("Сумма отрицательная");
 
 
     }
@@ -93,9 +93,9 @@ public class Main {
         System.out.println("Введите целое число");
         int a = console.nextInt();
         boolean b = (a < 0 );
-            if(a < 0)
-                System.out.println(b);
-            else if(a >= 0)
+        if(a < 0)
+            System.out.println(b);
+        else if(a >= 0)
             System.out.println(b);
     }
 
@@ -178,5 +178,3 @@ public class Main {
     }
 
 }
-
-
