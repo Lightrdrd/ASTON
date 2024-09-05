@@ -7,28 +7,28 @@ public class Lesson7{
     //Методы закомментил для удобства, так как есть ввод значений с клавиатуры
 
     public static void main(String[] args) {
-//        printThreeWords();    //1
-//        checkSumSign();      //2
-//        printColor();         //3
-//        compareNumbers();     //4
-//        checkRange();         //5
-//        checkNumber();       //6
-//        displayNumberBoolean();  //7
-//        printStringNumber();  //8
-//        checkYear();  //9
-//        recordArray();    //10
-//        recordToEmptyArray(); //11
-//        decreaseArray();  //12
-//        squareArray(20);  //13
-//        OneDimensionalArray(5, 12);   //14
+       printThreeWords();        //1 задание
+       checkSumSign();           //2 задание
+       printColor();             //3 задание
+       compareNumbers();         //4 задание
+       checkRange();             //5 задание
+       checkNumber();            //6 задание
+       displayNumberBoolean();   //7 задание
+       printStringNumber();      //8 задание
+       checkYear();               //9 задание
+       recordArray();            //10 задание
+       recordToEmptyArray();     //11 задание
+       decreaseArray();          //12 задание
+       squareArray(20);          //13 задание
+       OneDimensionalArray(5, 12);   //14 задание
 
     }
-    //1.
+    //1. Задание    
     public static void printThreeWords() {
         System.out.println(" Orange\n Banana\n Apple");
     }
 
-    //2.
+    //2. Задание    
     public static void checkSumSign() {
         int a = -10,b = 27;
         int res = a + b;
@@ -40,7 +40,7 @@ public class Lesson7{
 
     }
 
-    //3.
+    //3. Задание
     public static void printColor() {
         int value = -11;
         if(value <= 0)
@@ -52,7 +52,7 @@ public class Lesson7{
 
     }
 
-    //4.
+    //4. Задание
     public static void compareNumbers(){
         int a=24,b=2;
         if(a >= b)
@@ -61,7 +61,7 @@ public class Lesson7{
             System.out.println("a < b");
     }
 
-    //5.
+    //5. Задание
     public static void checkRange() {
         Scanner console = new Scanner(System.in);
         System.out.println("Введите певрое число ");
@@ -76,7 +76,7 @@ public class Lesson7{
             System.out.println(displayBoolean);
     }
 
-    //6.
+    //6. Задание
     public static void checkNumber() {
         Scanner console = new Scanner(System.in);
         System.out.println("Введите целое число ");
@@ -87,7 +87,7 @@ public class Lesson7{
             System.out.println("Введено отрицательное число");
     }
 
-    //7.
+    //7. Задание
     public static void displayNumberBoolean() {
         Scanner console = new Scanner(System.in);
         System.out.println("Введите целое число");
@@ -99,7 +99,7 @@ public class Lesson7{
             System.out.println(b);
     }
 
-    //8.
+    //8. Задание
     public static void printStringNumber(){
         Scanner console = new Scanner(System.in);
         System.out.println("Введите строку");
@@ -111,7 +111,7 @@ public class Lesson7{
         }
     }
 
-    //9.
+    //9. Задание
     public static void checkYear() {
         Scanner console = new Scanner(System.in);
         System.out.println("Введите год");
@@ -127,7 +127,7 @@ public class Lesson7{
         }
     }
 
-    //10.
+    //10. Задание
     public static void recordArray() {
         int[] array = {1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1};
         System.out.println(Arrays.toString(array));
@@ -136,7 +136,7 @@ public class Lesson7{
         System.out.println(Arrays.toString(array));
     }
 
-    //11.
+    //11. Задание
     public static void recordToEmptyArray(){
         int[] array = new int[100];
         for (int i = 0, j = 1; i < array.length; i++, j ++)
@@ -144,7 +144,7 @@ public class Lesson7{
         System.out.println(Arrays.toString(array));
     }
 
-    //12.
+    //12. Задание
     public static void decreaseArray(){
         int[] array = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
         for (int i = 0; i < array.length; i++)
@@ -153,7 +153,7 @@ public class Lesson7{
         System.out.println(Arrays.toString(array));
     }
 
-    //13.
+    //13. Задание
     public static void squareArray(int size) {
         int[][] square = new int[size][size];
         for (int i = 0; i < size; i++) {
@@ -165,7 +165,7 @@ public class Lesson7{
             System.out.println(Arrays.toString(square[i]));
     }
 
-    //14.
+    //14. Задание
     public static void OneDimensionalArray(int len, int initialValue){
         int[] arr = new int[len];
         for (int i = 0; i < len; i++) {
