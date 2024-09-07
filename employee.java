@@ -3,16 +3,16 @@ public class employee {
     private String fio;
     private String jobTitle;
     private String email;
-    private int phone ;
+    private String phone ;
     private int salary;
     private int age;
 
 //Заполнение полей значениями
-  public employee(){
+  public employee(String fio, String jobTitle, String email, String phone, int salary, int age){
         this.fio = "Ivanov Ivan Ivanovich";
         this.jobTitle = "welder";
         this.email = "yarkoslepit@mail.ru";
-        this.phone = 2020327;
+        this.phone = "2020327";
         this.salary = 500;
         this.age = 25;
     }
