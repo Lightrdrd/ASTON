@@ -22,9 +22,4 @@ public class employee {
         System.out.println("FIO: " + fio+"\n" + "Job Title: " + jobTitle +"\n" + "Email: " + email +"\n" + "Phone: " + phone +"\n" + "Salary: " + salary +"\n" + "Age: " + age );
     }
 
-
-
-
-
-
 }
